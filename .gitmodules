@@ -1,6 +1,6 @@
 [submodule "dashjs"]
 	path = dashjs
-	url = https://github.com/DenizUgur/dash.js.git
+	url = https://github.com/streaming-university/dash.js.git
 [submodule "FFmpeg/FFmpeg"]
 	path = FFmpeg/FFmpeg
-	url = https://github.com/DenizUgur/FFmpeg.git
+	url = https://github.com/streaming-university/FFmpeg.git
