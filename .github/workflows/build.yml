@@ -36,10 +36,10 @@ jobs:
               uses: docker/build-push-action@v3
               with:
                   push: true
-                  tags: ghcr.io/denizugur/capsc:latest
+                  tags: ghcr.io/streaming-university/capsc:latest
                   cache-from: type=local,src=/tmp/.buildx-cache
                   cache-to: type=local,dest=/tmp/.buildx-cache-new,mode=max
 
             - name: Inspect image
               run: |
-                docker buildx imagetools inspect ghcr.io/denizugur/capsc:latest
+                docker buildx imagetools inspect ghcr.io/streaming-university/capsc:latest
